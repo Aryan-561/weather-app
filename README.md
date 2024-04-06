@@ -5,7 +5,6 @@ A simple weather application that allows users to check the current weather and 
 
 [Weather App](https://aryan-561.github.io/weather-app/)
 
-
 ## Technologies Used
 
 - HTML5
@@ -22,7 +21,7 @@ A simple weather application that allows users to check the current weather and 
 
 ## Preview
 ![aryan-561 github io_weather-app_](https://github.com/Aryan-561/weather-app/assets/146006037/25af3843-5f29-40da-a537-b4c1151761c1)
-<video src="https://github.com/Aryan-561/weather-app/assets/146006037/138aca3c-12ad-4302-a1b5-a137ea17c03e">
+<video autoplay src="https://github.com/Aryan-561/weather-app/assets/146006037/a661e90d-c61d-4fcd-8419-1d1bf5ba4c98">
 
 ## Credits
 
