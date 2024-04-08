@@ -14,7 +14,7 @@ searchBtn.addEventListener("click", fetchApi);
 // Function to fetch weather data asynchronously
 async function fetchApi() {
     //
-    document.body.className = (` bg-[url('src/img/front.jpg')] bg-cover bg-center min-h-screen`);
+    document.body.className = (` bg-[url('../src/img/front.jpg')] bg-cover bg-center min-h-screen`);
 
     main.innerHTML = "";
     i = 0;
@@ -26,7 +26,7 @@ async function fetchApi() {
 
         // Checking if the response code indicates data not found (404)
         if (currData.cod == "404") {
-            document.body.className = (` bg-[url('src/img/front.jpg')] bg-cover bg-center min-h-screen`);
+            document.body.className = (` bg-[url('../src/img/front.jpg')] bg-cover bg-center min-h-screen`);
 
             main.innerHTML = `<div class="text-white mx-auto py-6 mt-12 capitalize text-center font-bold border-2 border-white border-solid b [text-shadow:2px_2px_1px_black] bg-black/20 rounded-lg w-[80%] text-2xl sm:w-[60%] sm:text-3xl">${currData.message}</div>`
         }
@@ -44,12 +44,12 @@ async function fetchApi() {
 function showCurrData(res) {
     // Setting background image based on weather condition
     if (res.weather[0].id > 700 && res.weather[0].id < 800) {
-        document.body.className = (`bg-[url('src/img/700.jpg')] bg-cover min-h-screen bg-center`);
+        document.body.className = (`bg-[url('../src/img/700.jpg')] bg-cover min-h-screen bg-center`);
 
     }
 
     else {
-        document.body.className = (`bg-[url('src/img/${res.weather[0].main}.jpg')] bg-cover min-h-screen bg-center`);
+        document.body.className = (`bg-[url('../src/img/${res.weather[0].main}.jpg')] bg-cover min-h-screen bg-center`);
     }
 
     // Displaying current weather data in main element
@@ -126,6 +126,7 @@ async function currentWeather() {
     }
     catch (err) {
         console.log(err);
+         document.body.className = (` bg-[url('../src/img/front.jpg')] bg-cover bg-center min-h-screen`);
         main.innerHTML = `
     <div class="text-white mx-auto py-6 mt-12 capitalize text-center font-bold border-2 border-white border-solid b [text-shadow:2px_2px_1px_black] bg-black/20 rounded-lg w-[80%] text-2xl sm:w-[60%] sm:text-3xl">Data Not Found</div>
     `;
