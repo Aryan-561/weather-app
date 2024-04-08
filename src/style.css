@@ -743,16 +743,88 @@ video {
   background-color: rgb(255 255 255 / 0.3);
 }
 
-.bg-\[url\(\'src\/img\/\$\{res\.weather\[0\]\.main\}\.jpg\'\)\] {
-  background-image: url('src/img/${res.weather[0].main}.jpg');
+.bg-\[url\(\'\.\.\/src\/img\/\$\{res\.weather\[0\]\.main\}\.jpg\'\)\] {
+  background-image: url('../src/img/${res.weather[0].main}.jpg');
 }
 
-.bg-\[url\(\'src\/img\/700\.jpg\'\)\] {
-  background-image: url('src/img/700.jpg');
+.bg-\[url\(\'\.\.\/src\/img\/700\.jpg\'\)\] {
+  background-image: url('../src/img/700.jpg');
 }
 
-.bg-\[url\(\'src\/img\/front\.jpg\'\)\] {
-  background-image: url('src/img/front.jpg');
+.bg-\[url\(\'\.\.\/src\/img\/front\.jpg\'\)\] {
+  background-image: url('../src/img/front.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/\.jpg\'\)\] {
+  background-image: url('../src/img/.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/clear\.jpg\'\)\] {
+  background-image: url('../src/img/clear.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Clear\.jpg\'\)\] {
+  background-image: url('../src/img/Clear.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Clouds\.jpg\'\)\] {
+  background-image: url('../src/img/Clouds.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Di\.jpg\'\)\] {
+  background-image: url('../src/img/Di.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Dizz\.jpg\'\)\] {
+  background-image: url('../src/img/Dizz.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Dizzle\.jpg\'\)\] {
+  background-image: url('../src/img/Dizzle.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Dizzljpg\'\)\] {
+  background-image: url('../src/img/Dizzljpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Rain\.jpg\'\)\] {
+  background-image: url('../src/img/Rain.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Snow\.jpg\'\)\] {
+  background-image: url('../src/img/Snow.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Thur\.jpg\'\)\] {
+  background-image: url('../src/img/Thur.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Thunder\.jpg\'\)\] {
+  background-image: url('../src/img/Thunder.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Thunders\.jpg\'\)\] {
+  background-image: url('../src/img/Thunders.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Thunderst\.jpg\'\)\] {
+  background-image: url('../src/img/Thunderst.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Thunderstorm\.jpg\'\)\] {
+  background-image: url('../src/img/Thunderstorm.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Dri\.jpg\'\)\] {
+  background-image: url('../src/img/Dri.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Drizz\.jpg\'\)\] {
+  background-image: url('../src/img/Drizz.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Drizzle\.jpg\'\)\] {
+  background-image: url('../src/img/Drizzle.jpg');
 }
 
 .bg-cover {
