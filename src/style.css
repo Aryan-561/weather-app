@@ -601,6 +601,10 @@ video {
   height: 2rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -631,6 +635,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .shrink-0 {
@@ -751,80 +763,12 @@ video {
   background-image: url('../src/img/700.jpg');
 }
 
-.bg-\[url\(\'\.\.\/src\/img\/front\.jpg\'\)\] {
-  background-image: url('../src/img/front.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/\.jpg\'\)\] {
-  background-image: url('../src/img/.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/clear\.jpg\'\)\] {
-  background-image: url('../src/img/clear.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Clear\.jpg\'\)\] {
-  background-image: url('../src/img/Clear.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Clouds\.jpg\'\)\] {
-  background-image: url('../src/img/Clouds.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Di\.jpg\'\)\] {
-  background-image: url('../src/img/Di.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Dizz\.jpg\'\)\] {
-  background-image: url('../src/img/Dizz.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Dizzle\.jpg\'\)\] {
-  background-image: url('../src/img/Dizzle.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Dizzljpg\'\)\] {
-  background-image: url('../src/img/Dizzljpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Rain\.jpg\'\)\] {
-  background-image: url('../src/img/Rain.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Snow\.jpg\'\)\] {
-  background-image: url('../src/img/Snow.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Thur\.jpg\'\)\] {
-  background-image: url('../src/img/Thur.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Thunder\.jpg\'\)\] {
-  background-image: url('../src/img/Thunder.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Thunders\.jpg\'\)\] {
-  background-image: url('../src/img/Thunders.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Thunderst\.jpg\'\)\] {
-  background-image: url('../src/img/Thunderst.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Thunderstorm\.jpg\'\)\] {
-  background-image: url('../src/img/Thunderstorm.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Dri\.jpg\'\)\] {
-  background-image: url('../src/img/Dri.jpg');
-}
-
-.bg-\[url\(\'\.\.\/src\/img\/Drizz\.jpg\'\)\] {
-  background-image: url('../src/img/Drizz.jpg');
-}
-
 .bg-\[url\(\'\.\.\/src\/img\/Drizzle\.jpg\'\)\] {
   background-image: url('../src/img/Drizzle.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/front\.jpg\'\)\] {
+  background-image: url('../src/img/front.jpg');
 }
 
 .bg-cover {
@@ -1026,12 +970,36 @@ video {
     margin-top: 0px;
   }
 
+  .sm\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .sm\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
+  .sm\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .sm\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .sm\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .sm\:block {
     display: block;
   }
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:h-10 {
+    height: 2.5rem;
   }
 
   .sm\:h-\[224px\] {
@@ -1052,6 +1020,10 @@ video {
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-64 {
+    width: 16rem;
   }
 
   .sm\:flex-row {
@@ -1095,6 +1067,11 @@ video {
     padding-bottom: 1.5rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1102,6 +1079,11 @@ video {
 
   .sm\:text-\[3rem\] {
     font-size: 3rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .sm\:text-xl {
@@ -1130,6 +1112,22 @@ video {
 
   .group:hover .group-hover\:sm\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
