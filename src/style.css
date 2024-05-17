@@ -771,6 +771,27 @@ video {
   background-image: url('../src/img/front.jpg');
 }
 
+.bg-\[url\(\'\.\.\/src\/img\/Rain\.jpg\'\)\] {
+  background-image: url('../src/img/Rain.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Snow\.jpg\'\)\] {
+  background-image: url('../src/img/Snow.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Clouds\.jpg\'\)\] {
+  background-image: url('../src/img/Clouds.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/img\/Clear\.jpg\'\)\] {
+  background-image: url('../src/img/Clear.jpg');
+}
+
+
+.bg-\[url\(\'\.\.\/src\/img\/Thunderstorm\.jpg\'\)\] {
+  background-image: url('../src/img/Thunderstorm.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
